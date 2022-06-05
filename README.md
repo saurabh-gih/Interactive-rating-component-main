@@ -7,6 +7,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -28,6 +29,10 @@ Users should be able to:
 
 ![HomePage](./Home-Page.png)
 ![ThankYouPage](./Thank-You-Page.png)
+
+### Links 
+
+Live Site URL: [Interactive-rating-component-main](https://saurabhisdev.github.io/Interactive-rating-component-main/)
 
 ## My process
 
