@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    background-color: hsl(213, 19%, 18%);
+    max-width: 20.4375rem;
+    padding: 2.18rem;
+    border-radius: 20px;
+}
+
+.logo-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 12%, 54%, 0.17);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 22px;
+    color: hsl(217, 12%, 63%);
+    width: 21rem;
+}
+
+.rating-numbers {
+    display: flex;
+    gap: 15px;
+}
+
+.number {
+    flex-grow: 1;
+    text-align: center;
+    background-color: hsl(216, 12%, 54%, 0.17);
+    line-height: 50px;
+    color: hsl(217, 12%, 63%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.number:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.rating-numbers>[aria-selected="true"] {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+.btn {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+/* ---Thank You Page---  */
+
+.main-container-ty {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+    width: 21rem;
+}
+
+.paragraph-2>p {
+    background-color: hsl(216, 12%, 54%, 0.17);
+    color: hsl(25, 97%, 53%);
+    padding: 7px 15px;
+    border-radius: 25px;
+}
+
+@media (max-width: 375px){
+    .main-container{
+        max-width: 19rem;
+        gap: 1.5rem;
+        padding: 2.18rem 1.18rem;
+    }
+    .paragraph{
+        width: 19rem;
+    }
+    .text-center{
+        width: 19rem;
+    }
+}
+
+[hidden]{
+    display: none;
+}
