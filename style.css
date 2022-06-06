@@ -7,6 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-family: 'Overpass', sans-serif;
     background-color: hsl(216, 12%, 8%);
     color: hsl(0, 0%, 100%);
@@ -17,9 +18,9 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 35px;
+    gap: 27px;
     background-color: hsl(213, 19%, 18%);
-    max-width: 20.4375rem;
+    max-width: 19rem;
     padding: 2.18rem;
     border-radius: 20px;
 }
@@ -31,12 +32,13 @@ body {
     background-color: hsl(216, 12%, 54%, 0.17);
     height: 50px;
     width: 50px;
+    margin-bottom: 8px;
     border-radius: 50%;
 }
 
 .title {
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: -16px;
     letter-spacing: 2px;
 }
 
@@ -57,10 +59,10 @@ body {
     flex-grow: 1;
     text-align: center;
     background-color: hsl(216, 12%, 54%, 0.17);
-    line-height: 50px;
+    line-height: 45px;
     color: hsl(217, 12%, 63%);
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
 }
 
@@ -81,9 +83,10 @@ body {
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 2px;
-    padding: 15px;
+    padding: 10px 15px;
     border: none;
     border-radius: 25px;
+    margin-bottom: -13px;
 }
 
 .btn:hover {
@@ -112,7 +115,7 @@ body {
 @media (max-width: 375px){
     .main-container{
         max-width: 19rem;
-        gap: 1.5rem;
+        gap: 1rem;
         padding: 2.18rem 1.18rem;
     }
     .paragraph{
