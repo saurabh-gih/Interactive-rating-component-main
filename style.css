@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     gap: 27px;
     background-color: hsl(213, 19%, 18%);
-    max-width: 19rem;
+    max-width: 20.197rem;
     padding: 2.18rem;
     border-radius: 20px;
 }
@@ -47,7 +47,6 @@ body {
     font-size: 0.9375rem;
     line-height: 22px;
     color: hsl(217, 12%, 63%);
-    width: 21rem;
 }
 
 .rating-numbers {
@@ -59,7 +58,7 @@ body {
     flex-grow: 1;
     text-align: center;
     background-color: hsl(216, 12%, 54%, 0.17);
-    line-height: 45px;
+    line-height: 48px;
     color: hsl(217, 12%, 63%);
     width: 45px;
     height: 45px;
@@ -114,12 +113,9 @@ body {
 
 @media (max-width: 375px){
     .main-container{
-        max-width: 19rem;
-        gap: 1rem;
+        max-width: 18.5rem;
+        gap: 1.5rem;
         padding: 2.18rem 1.18rem;
-    }
-    .paragraph{
-        width: 19rem;
     }
     .text-center{
         width: 19rem;
