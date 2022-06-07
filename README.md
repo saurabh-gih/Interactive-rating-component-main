@@ -27,8 +27,10 @@ Users should be able to:
 
 ### Screenshot
 
-![HomePage](./Home-Page.png)
+![HomePage](./Home-page.png)
 ![ThankYouPage](./Thank-You-Page.png)
+<img src="./Mobile-Home-Page.jpeg" width="300rem">
+<img src="./Mobile-Thank-You.jpeg" width="300rem">
 
 ### Links 
 
