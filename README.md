@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links 
 
-Live Site URL: [Interactive-rating-component-main](https://saurabhisdev.github.io/Interactive-rating-component-main/)
+Live Site URL: [Interactive-rating-component-main](https://saurabh-gih.github.io/Interactive-rating-component-main/)
 
 ## My process
 
